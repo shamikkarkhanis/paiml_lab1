@@ -59,7 +59,7 @@ def main():
     with open(input_path, "r", encoding="utf-8") as f:
         movies = json.load(f)
 
-    movies = [m for m in movies if m.get("original_language") == "en" and m.get("budget") != 0]
+    movies = [m for m in movies if m.get("original_language") == "en" and m.get("budget") != 0 and m.get("vote_count") != 0]
 
     if not movies:
         print("No movies found in JSON file")
