@@ -1,0 +1,11 @@
+Best Cross-Validation Score: 0.6766
+
+Optimized SVM Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.46      0.65      0.54       148
+           1       0.73      0.55      0.63       252
+
+    accuracy                           0.59       400
+   macro avg       0.59      0.60      0.58       400
+weighted avg       0.63      0.59      0.59       400
